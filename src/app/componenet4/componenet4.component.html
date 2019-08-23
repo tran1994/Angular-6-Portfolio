@@ -1,0 +1,64 @@
+<br>
+<div id="header">Photography</div>
+<hr style="background-color:#4e65e7; height:2px; width:1600px" />
+<p id="photo">
+    I picked up photography about two years ago. It was right around when I realize how beautiful the world actually was. 
+    Photogrphy became a way for me to capture this beauty, whether it was a mesmerizing sunset or a unforgettable moment with friends and family, At some point, 
+     photography pushed me to become a perfectionist in a way as I wanted to replicate, not only the scenery I saw, but also the emotions that came with every photo. 
+     Feel free to contact me for any shoots that you want done and for my rates. Below are some of my photos that I have taken.
+</p>
+<button (click)="toggle()" id="bt">
+  {{show ? 'Hide Equipment':'View My Equipment'}}
+</button>
+
+<ng-container *ngIf="show">
+  <div style="margin: 0 auto;text-align: center;">
+    <br>
+
+    <table style="font-family: 'Titillium Web', sans-serif; font-size: 40px;border-color: #4e65e7; border-radius: 20px; height: 400px; margin-right: auto; margin-left: auto;" border="6" width="600" cellspacing="0" cellpadding="12"><caption >&nbsp;</caption>
+        <tbody>
+
+        <tr>
+        <td style="width: 500px;font-family: 'Titillium Web', sans-serif; text-align: left;" valign="top ">
+            <h3 style="font-size: 25px;">Canon 5D Mark III</h3>
+            <ul style="font-size: 20px; list-style-position: inside;" >
+              Lenses:
+            <li>Canon 85mm F/1.2</li>
+            <li>Canon 50mm F/1.2</li>
+            <li>Sigma Art 35mm F/1.4</li>
+            <li>Canon 17mm-40mm F/4</li>
+            </ul>
+    
+       
+    
+    
+        </td>
+        </tr>
+        </tbody>
+        </table>
+        <p>&nbsp;</p>
+    
+  </div>
+</ng-container>
+
+<hr style="background-color:#4e65e7; height:2px; width:1800px" />
+
+<div>  
+    <div class="row">  
+      <div class="col-sm-12 btn btn-primary" Style="font-family: 'Titillium Web', sans-serif; font-size:40px; text-align: center;">  
+        My Photos  
+      </div>  
+    </div>  
+  </div>  
+<!--  <hr style="background-color:black" /> --> 
+  <div class="row">  
+    <ngx-slick-carousel class="carousel" #slickModal="slick-carousel" [config]="slideConfig">  
+      <div ngxSlickItem *ngFor="let image of images" class="slide">  
+        <img src="{{ image.img }}" width="100%">  
+      </div>  
+    </ngx-slick-carousel>  
+  </div>  
+  <br>
+  <hr style="background-color:#4e65e7; height:2px; width:1800px" />
+
+  

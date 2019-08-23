@@ -1,0 +1,92 @@
+
+
+.button {
+  border-radius: 4px;
+  background-color: #4e65e7;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 20px;
+  padding: 15px;
+  width: 90px;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+#exp {
+font-size:20px
+
+}
+#exp2 {
+  font-size:20px
+  
+  }
+  ::ng-deep input{
+    border: 1px solid #ccc !important;
+    margin-bottom: 20px !important;
+  }
+  
+  #button2{
+    margin-top: 10px;
+    width: 60px;
+    height: 25px;
+    margin-left: 328px;
+    font-size:15px;
+    margin-left: 379px;
+    margin-top: 20px;
+  }
+  *{box-sizing: border-box}
+ 
+
+.container {
+  width: 100%;
+  background-color: #ddd;
+}
+
+.skills {
+  text-align: right;
+  padding-top: 1px;
+  padding-bottom: 1px;
+  color: white;
+}
+
+.angular {height:20px;width: 90%;font-size: 15px;text-align: left;  background-color: #4e65e7;}
+.angularjs {height:20px;width: 70%;font-size: 15px; text-align: left;background-color: #4e65e7;}
+.react {height:20px;width: 60%;font-size: 15px; text-align: left;background-color: #4e65e7;}
+.js {height:20px;width: 90%;font-size: 15px; text-align: left;background-color: #4e65e7;}
+.csharp {height:20x;width: 80%; font-size: 15px; text-align: left;background-color: #4e65e7;}
+.java {height:20px;width: 80%; font-size: 15px; text-align: left;background-color: #4e65e7;}
+.back {height:20px;width: 85%; font-size: 15px; text-align: left;background-color: #4e65e7;}
+.cloud {height:20px;width: 70%; font-size: 15px; text-align: left;background-color: #4e65e7;}
+
+#titl{
+font-size: 15px;
+text-align: left;
+
+}

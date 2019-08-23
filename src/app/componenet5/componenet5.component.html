@@ -1,0 +1,108 @@
+<br>
+
+<table style="font-family: 'Titillium Web', sans-serif; font-size: 40px;border-color: #4e65e7; border-radius: 20px; height: 600px; margin-right: auto; margin-left: auto;" border="6" width="1000" cellspacing="0" cellpadding="12"><caption >&nbsp;How To Find Me</caption>
+    <tbody>
+    <tr>
+    <td style="width: 500px;font-family: 'Titillium Web', sans-serif; text-align: center;font-size:15px;" valign="top ">
+           
+    <div id="swbt">
+            
+            <mat-button-toggle-group [value]="toggle" (change)="toggleView($event)">
+                    <mat-button-toggle [value]=1>
+                        <strong>Social media</strong>
+                        </mat-button-toggle>
+                    <mat-button-toggle [value]=2>
+                        <strong>Contact Info</strong>
+                    </mat-button-toggle>
+                 <!--   <mat-button-toggle [value]=3>
+                        <strong>Email Me</strong>
+                    </mat-button-toggle>-->
+                  </mat-button-toggle-group>
+
+                </div>
+                 <!-- <span>Current Value: {{toggle}}</span>-->
+                 <br>
+                  <div *ngIf="(toggle==1)">
+                      <br>
+                        <table style="border-color:transparent; border-radius: 20px; height:120px; margin-right: auto; margin-left: auto;" border="0" width="960" cellspacing="0" cellpadding="0">
+                                <tbody>
+                                <tr>
+                                        <div id="menu-outer">
+                                        <div class="table">
+                                        <ul id="horizontal-list">
+                                        <li><a href="https://www.facebook.com/calculus.bc.3" target="_blank"><img src="./assets/image/facebook.png"  style="font-size:60px; width:60px; height:60px" ></a> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                        <li><a href="https://www.instagram.com/dauwuy_cwenn/"><img src="./assets/image/insta.png"  style="font-size:63px; width:63px; height:643x" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                        <li><a href="https://www.linkedin.com/in/danny-nguyen-529a06138/" target="_blank"><img src="./assets/image/lin.png"  style="font-size:60px; width:60px; height:60px" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                        <li><a href="https://github.com/DanWin94" target="_blank"><img src="./assets/image/git.png"  style="font-size:60px; width:60px; height:60px"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                        <li><a href="https://devpost.com/dantran94?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" target="_blank"><img src="./assets/image/dp.png" style="font-size:65px; width:65px; height:65px" ></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</li>
+                                        </ul>                                     
+                                   </div>                                  
+                                    </div>
+                                    
+
+
+                                </tr>
+                                </tbody>
+                                </table>
+                  </div>
+
+                  <div *ngIf="(toggle==2)">
+                      <br>
+                  <table style="border-color: #4e65e7; border-radius: 20px; height:120px; margin-right: auto; margin-left: auto;" border="4" width="960" cellspacing="0" cellpadding="12">
+                    <tbody>
+                    <tr>
+                    <td style=" text-align: center" >
+                        Email: Dannynguyen49@yahoo.com
+
+                    </td>
+                    <td style=" text-align: center;">
+                      Phone Number: 404-916-0552
+                        
+                    </td>
+                    <td style=" text-align: center;">
+                      Work Email: Dannynguyen@ups.com
+                
+                    </td>
+                    </tr>
+                    </tbody>
+                    </table>
+                    <p>&nbsp;</p>
+                  </div>
+
+                <!--  <div *ngIf="(toggle==3)">
+                    <br>
+                    <hr style="background-color:#4e65e7; height:2px; width:960px" />
+                    <br>
+                    <div style="text-align: left;">
+                        <div>
+                            <label style="font-size: 20px;">Sender:{{name2}}</label>
+                            <div><input type='text' id="tbname" name="yourname"  [(ngModel)]="name2" /></div></div><div>
+                            <label  style="font-size: 20px;">Email :{{email2}}</label>
+                            <div><input type='text' name="email" id="email" [(ngModel)]="email2"/></div></div><div>
+                            <label  style="font-size: 20px;">Message:</label>
+                            <div><textarea rows="6" cols="70"></textarea></div></div>
+                         </div>
+                         <br>
+                         <a id="bt2">Send Email </a>
+                         <br>
+                         <br>
+                         <hr style="background-color:#4e65e7; height:2px; width:960px" />
+                  </div>
+                -->
+                
+
+                  <div id="header">Where I Am Currently</div>
+                  <hr style="background-color:#4e65e7; height:2px; width:960px" />
+                <agm-map [latitude]="lat" [zoom]="zoom" [longitude]="lng">
+                <agm-marker  [latitude]="lat" [longitude]="lng"></agm-marker>
+                </agm-map>
+                <hr style="background-color:#4e65e7; height:2px; width:960px" />
+ </td>
+    </tr> 
+
+
+    </tbody>
+    </table>
+    <p>&nbsp;</p>
+
+

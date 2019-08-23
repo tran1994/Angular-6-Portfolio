@@ -1,0 +1,24 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<mat-toolbar color="primary" >
+  <span>     </span>
+  <span class="example-fill-remaining-space">DANNY NGUYEN</span>  
+  <span>     </span>
+  </mat-toolbar>
+ 
+  <mat-toolbar color="primary" >
+    <span class="example-fill-remaining-space2">Software Developer - Photographer</span>  
+    </mat-toolbar> 
+
+  
+  <nav mat-tab-nav-bar mat-align-tabs="center" >
+    <a mat-tab-link
+    *ngFor="let link of navLinks"
+    [routerLink]="link.link"
+    routerLinkActive #rla="routerLinkActive"
+    [active]="rla.isActive">
+    {{link.label}}
+  
+    </a>
+  </nav>
+
+<router-outlet></router-outlet>

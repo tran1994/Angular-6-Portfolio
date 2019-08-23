@@ -1,0 +1,85 @@
+<br>
+<table style="font-family: 'Titillium Web', sans-serif; font-size: 40px;border-color: #4e65e7; border-radius: 20px; height: 600px; margin-right: auto; margin-left: auto;" border="6" width="1000" cellspacing="0" cellpadding="12"><caption >&nbsp;So what Do I know?</caption>
+    <tbody>
+    <tr>
+    <td style="width: 500px;font-family: 'Titillium Web', sans-serif; text-align: center;" valign="top ">
+        <a href="./assets/resume.pdf" class="button" download="resume.pdf">Download Resume </a>
+
+        <br>
+        <div id="button2">
+        <mat-button-toggle-group [value]="toggle" (change)="toggleView($event)">
+            <mat-button-toggle [value]="true">
+                Key Skills
+            </mat-button-toggle>
+            <mat-button-toggle [value]="false">
+                What I Know
+            </mat-button-toggle>
+          </mat-button-toggle-group>
+        </div>
+        
+
+          <div *ngIf="toggle">
+                <p id="titl">Angular 8</p>
+                <div class="container">
+                  <div class="skills angular">90%</div>
+                </div>
+                
+                <p id="titl">Angular JS</p>
+                <div class="container">
+                  <div class="skills angularjs">70%</div>
+                </div>
+                <p id="titl">React JS</p>
+                <div class="container">
+                  <div class="skills react">60%</div>
+                </div>
+                
+                <p id="titl">JavaScript/HTML/CSS</p>
+                <div class="container">
+                  <div class="skills js">90%</div>
+                </div>
+                
+                <p id="titl">C#</p>
+                <div class="container">
+                  <div class="skills csharp">80%</div>
+                </div>
+
+                <p id="titl">Java</p>
+                <div class="container">
+                  <div class="skills java">80%</div>
+                </div>
+
+                <p id="titl">Backend Development(NodeJS,MongoDB,SQL)</p>
+                <div class="container">
+                  <div class="skills back">85%</div>
+                </div>
+                
+                <p id="titl">Cloud Services(Azure,AWS,Google)</p>
+                <div class="container">
+                  <div class="skills back">70%</div>
+                </div>
+
+
+          </div>
+
+
+          <div *ngIf="!toggle">
+            <br>
+            <p id="exp">I mainly consider myself a frontend developer and a backend developer. My knowledge includes Javascript, mainly AngularJS and Angular 8, HTML5, 
+                and CSS. Although, I do have a little experience with ReactJS. For back end, I know Node.JS, MYSQL,SQLite, and I do have some experience with MongoDB. In addition to having the knowledge of how to set up REST API's and using Express. 
+                Other languages that I know include Java, C#,and Matlab. I also have experience with Azure and AWS. Other experience includes using Docker and Openshift. My other interest includes photography and because of this, my skill set 
+                also includes photoshop and light room. </p>
+            <p id="exp2">In addition to these skills, the fact that I have attended various hackathons has also helped me to work in a team environment. I have worked, both in a waterfall 
+                and agile working environments. This has contributed to my experience of not only, working in a team of devlopers, but also with UX/UI designers and various types of 
+                business majors to execute and deliver projects based on the given challenges and assigments. Feel free to check out my resume to see my projects
+                and the hackathons that I have attended.</p>       
+          </div>
+          
+
+
+    
+
+    </td>
+    </tr>
+    </tbody>
+    </table>
+    <p>&nbsp;</p>

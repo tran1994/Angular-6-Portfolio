@@ -1,0 +1,57 @@
+
+
+::ng-deep input{
+    border: 1px solid #ccc !important;
+    margin-bottom: 25px !important;
+    
+  }
+   #swbt{
+    margin-top: 10px;
+    width: 60px;
+    height: 25px;
+    margin-left: 373px;
+  }
+  #menu-outer {
+	height: 84px;
+	
+}
+
+  .table {
+	display: table;   /* Allow the centering to work */
+  margin: 0 auto;
+ 
+}
+ul#horizontal-list {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+	}
+	ul#horizontal-list li {
+		display: inline;
+  }
+  
+  #bt2 {
+    border-radius: 4px;
+    background-color: #4e65e7;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0 auto;
+    display: inline-block;
+
+   }
+   agm-map {
+    height: 300px;
+    border-radius:20px;
+   }
+   #header{
+    font-family: 'Titillium Web', sans-serif; 
+    text-align: center;
+    font-size:35px;
+
+  }
