@@ -9,7 +9,7 @@
     margin-top: 10px;
     width: 60px;
     height: 25px;
-    margin-left: 373px;
+    margin-left: 328px;
   }
   #menu-outer {
 	height: 84px;
@@ -55,5 +55,21 @@ ul#horizontal-list {
     font-size:35px;
 
   }
+
+  #bt4 {
+    border-radius: 4px;
+    background-color: #4e65e7;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 100px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 0 auto;
+    display: inline-block;
+
+   }
 
   

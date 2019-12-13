@@ -19,9 +19,7 @@ export class Componenet5Component implements OnInit {
     const allInfo = `My name is ${this.name}. My email is ${this.email}. My message is ${this.message}`;
     alert(allInfo); 
   }*/
-  processForm() {
-    const allInfo = `Email has been sent!`;
-    alert(allInfo); }
+  
   
 
 
