@@ -10,27 +10,27 @@ import {MatButtonToggleChange} from '@angular/material';
 })
 export class Componenet5Component implements OnInit {
   toggle: number = 2;
-  _name:string;
-  _email:string;
+  name: string;
+  email: string;
+  message: string;
 
 
-get name2(): string{
-    return this._name;
-}
-set name2(value: string){
-  this._name=value;
-}
+ /* processForm() {
+    const allInfo = `My name is ${this.name}. My email is ${this.email}. My message is ${this.message}`;
+    alert(allInfo); 
+  }*/
+  processForm() {
+    const allInfo = `Email has been sent!`;
+    alert(allInfo); }
+  
 
-get email2(): string{
-  return this._email;
-}
-set email2(value: string){
-this._email=value;
-}
 
   constructor() { 
-    this.name2="Full Name";
-    this.email2="Address";
+    /**
+   * Process the form we have. Send to whatever backend
+   * Only alerting for now
+   */
+    
   }
   toggleView(change: MatButtonToggleChange){
     this.toggle = change.value;

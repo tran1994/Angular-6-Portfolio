@@ -67,6 +67,7 @@ font-size:20px
 .container {
   width: 100%;
   background-color: #ddd;
+  margin-top: -15px;
 }
 
 .skills {

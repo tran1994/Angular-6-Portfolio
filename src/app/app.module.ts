@@ -73,6 +73,7 @@ import { Componenet5Component } from './componenet5/componenet5.component';
     ReactiveFormsModule, 
     MatInputModule, 
     MatButtonToggleModule,
+    FormsModule,
     AgmCoreModule.forRoot({
       apiKey: 'AIzaSyAdL_WYLSzMGGiZoQ7EEZ_WqijCCi-CDz0'
     })
